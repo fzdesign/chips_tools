@@ -1,0 +1,36 @@
+{
+  "games": [
+    {
+      "platform":
+      {
+        "title": "Chip's Challenge",
+        "launch year": "1989"
+      },
+      "name": "Atari Lynx",
+      "year": "1989"
+    },
+    {
+     "platform": {
+       "launch year": "2003",
+       "name": "Steam"
+     },
+       "title": "Chip's Challenge 2",
+       "year": "2015"
+
+    },
+
+    {
+      "platform": {
+        "launch year": "2019",
+       "name": "Steam"
+      },
+      "title": "Disco ELysium",
+      "year": "2023"
+    }
+
+  ]
+}
+
+
+
+
