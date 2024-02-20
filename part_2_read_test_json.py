@@ -17,8 +17,8 @@ input_json_file = "data/test_data.json"
 with open(input_json_file, 'r') as reader:
     game_data = json.load(reader)
     #print(libraryjson['games'][0]['title'])
-    game_info = make_game_library_from_json(game_data)
-    print(game_info)
+game_info = make_game_library_from_json(game_data)
+print(game_info)
 ### Begin Add Code Here ###
 #Open the file specified by input_json_file
 #Use the json module to load the data from the file
