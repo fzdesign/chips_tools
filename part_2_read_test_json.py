@@ -7,7 +7,7 @@ def make_game_library_from_json(json_data):
 
     for game in games:
 
-        new_game = test_data.Game(game["title"], test_data.Platform(name=game['platform']['name'],launch_year=game['platform']['launch year']), game['year'])
+        new_game = test_data.Game(game['title'], test_data.Platform(name=game['platform']['name'],launch_year=game['platform']['launch year']), game['year'])
 
         game_library.add_game(new_game)
 
