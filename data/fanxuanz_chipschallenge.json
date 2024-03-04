@@ -1032,10 +1032,17 @@
         0,
         0
       ],
+      "monsters": [
+        [
+          10,
+          4
+        ]
+      ],
       "lowerLayer": [],
       "level_number": 1
     },
     {
+      "numberOfChips": 3,
       "upperLayer": [
         1,
         1,
@@ -1245,7 +1252,7 @@
         0,
         0,
         0,
-        0,
+        34,
         1,
         0,
         0,
@@ -2062,19 +2069,20 @@
         0,
         0
       ],
+      "monsters": [
+        [
+          5,
+          11
+        ]
+      ],
       "time": 120,
       "title": "A Worse Game",
       "hintText": "this is the text which should display on the hint",
       "password": [216,216,216,216],
-      "numberOfChips": 3,
       "lowerLayer": [],
       "level_number": 2
     },
     {
-      "password": [216,216,216,216],
-      "time": 120,
-      "hintText": "this is the text which should display on the hint",
-      "title": "The Worst Game",
       "upperLayer": [
         1,
         1,
@@ -3101,7 +3109,17 @@
         0,
         0
       ],
+      "monsters": [
+        [
+          10,
+          13
+        ]
+      ],
+      "time": 120,
+      "hintText": "this is the text which should display on the hint",
+      "title": "The Worst Game",
       "numberOfChips": 4,
+      "password": [216,216,216,216],
       "lowerLayer": [],
       "level_number": 3
     }

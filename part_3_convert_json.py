@@ -15,8 +15,8 @@ for level_j in parsed_json['levels']:
     level.add_field(cc_classes.CCMapTitleField(level_j['title']))
 
 #level.add_field(cc_classes.CCCoordinate(parsed_json['levels'][0]['monster']))
-#monsters = [cc_classes.CCCoordinate(monster["x"], monster["y"]) for monster in field["monster"]]
-#level.add_field(cc_classes.CCMonsterMovementField(parsed_json['levels'][1]['monster']))
+    monsters = [cc_classes.CCCoordinate(monster[0], monster[1]) for monster in level_j["monsters"]]
+    level.add_field(cc_classes.CCMonsterMovementField(monsters))
 
     level_pack.add_level(level)
 cc_dat_utils.write_cc_level_pack_to_dat(level_pack, "my.dat")
